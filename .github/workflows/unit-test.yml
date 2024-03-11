@@ -26,7 +26,8 @@ jobs:
     - name: Start Backend Server
       run: | 
         npm install
-        npm run serve
+        nohup npm run serve &
+        sleep 10
       working-directory: ./backend
 
     - name: Run tests
