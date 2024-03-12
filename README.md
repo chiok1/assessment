@@ -10,7 +10,7 @@
     - index.js: Serve Addition and Subtraction APIs using Express.js
 - unit-tests: Contains the unit tests for the backend code written in Python
 
-## Getting Started
+## Getting Started Locally
 1. Clone the repository
 2. Navigate to the backend folder and run the following command to install the required dependencies
     ```

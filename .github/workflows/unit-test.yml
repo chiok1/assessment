@@ -27,7 +27,6 @@ jobs:
       run: | 
         npm install
         nohup npm run serve &
-        sleep 10
       working-directory: ./backend
 
     - name: Run tests
